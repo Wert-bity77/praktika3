@@ -1,0 +1,466 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: gray;
+}
+
+
+
+.sec-h1 {
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 78.72px;
+    letter-spacing: 0.05em;
+    
+}
+header {
+    background-image: url(/1.png);
+    padding-top: 30px;
+    height: 797px;
+}
+
+.header-h1{
+    font-family: Open Sans;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 118.08px;
+    letter-spacing: 0.02em;
+    width: 679px;
+    color: #fff;
+}
+
+.header-texts li a:hover{
+    color: #F57520;
+    font-family: Open Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 19.2px;
+
+}
+.header-p{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28.8px;
+    letter-spacing: 0.01em;
+    color: #fff;
+    width: 645px;margin-top: 30px;
+
+}
+
+.header-btn{
+    width:180px;
+    height:52px;
+    border-radius: 10px ;
+    opacity: 0px;
+    background-color: var(--orange);
+    background-repeat: no-repeat;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+}
+
+
+
+.header-texts li a{
+    color: white;
+    font-family: Open Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 19.2px;
+
+}
+.parent {
+    position: relative;
+    left: 300px;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+
+
+
+.main-wrapper {
+    max-width: 100%;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 100%;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.main-item {
+    text-align: center;
+    font-size: 45px;
+
+}
+
+.Велосипеды {
+    border-radius: 20px;
+    background-image: url(pngwing\ \(2\).png);
+    position: relative;
+    background-color: orange;
+    padding-left: 80px;
+    background-position: right;
+    height: 300px;
+    background-repeat: no-repeat;
+    align-items: center;
+    width: 100%;
+    padding-top: 122px;
+}
+
+.main-text {
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49.2px;
+    letter-spacing: 0.05em;
+    color: #fff;
+}
+
+.Trade-in {
+    margin-top: 20px;
+    width: 60%;
+    background-image: url(./pngwing\ 2\ \(1\).png);
+    height: 458px;
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-position: bottom;
+    color: #fff;
+    position: relative;
+    right: 400px;
+    text-align: center;
+    padding-top: 80px;
+    border-radius: 20px;
+    
+}
+
+.Trade-in:hover {
+    margin-top: 20px;
+    width: 30%;
+    background-image: url(./pngwing\ 2\ \(1\).png);
+    height: 458px;
+    background-repeat: no-repeat;
+    background-color: #F57520;
+    background-position: center;
+    transition: all ease 0.9s;
+    color: #fff;
+    text-align: center;
+    padding-top: 80px;
+    border-radius: 20px;
+}
+
+
+
+.Trade-in h2 {
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49.2px;
+    letter-spacing: 0.05em;
+
+}
+
+.right-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    position: relative;
+    left: 400px;
+    bottom: 470px;
+}
+
+.bottom-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.right-wrappercard1 {
+    border-radius: 20px;
+    width: 460px;
+    height: 216px;
+    background-color: black;
+    color: #fff;
+    background-image: url(./pngwing\ \(3\).png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 45px 0 0 24px;
+}
+
+.right-wrappercard1:hover {
+    border-radius: 20px;
+    width: 47%;
+    height: 216px;
+    background-color: #F57520;
+    color: #fff;
+    transition: all ease 0.5s;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 45px 0 0 24px;
+}
+
+.right-wrappercard2:hover {
+    border-radius: 20px;
+    width: 47%;
+    height: 216px;
+    background-color: #F57520;
+    color: #fff;
+    transition: all ease 0.5s;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 45px 0 0 24px;
+}
+
+
+.right-wrappercard3:hover {
+    border-radius: 20px;
+    width: 47%;
+    height: 216px;
+    background-color: #F57520;
+    color: #fff;
+    transition: all ease 0.5s;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 45px 0 0 24px;
+}
+
+
+
+
+.right-wrappercard4:hover {
+    border-radius: 20px;
+    width: 47%;
+    height: 216px;
+    background-color: #F57520;
+    color: #fff;
+    transition: all ease 0.5s;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 45px 0 0 24px;
+}
+
+
+.right-wrappercard2 {
+    border-radius: 20px;
+    width: 460px;
+    height: 216px;
+    background-color: black;
+    color: #fff;
+    background-image: url(./pngwing.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 45px 0 0 24px;
+}
+
+.right-wrappercard3 {
+    border-radius: 20px;
+    width: 460px;
+    height: 216px;
+    background-color: black;
+    color: #fff;
+    background-image: url(./image\ 40\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 45px 0 0 24px;
+}
+
+.right-wrappercard4 {
+    border-radius: 20px;
+    width: 460px;
+    height: 216px;
+    background-color: black;
+    color: #fff;
+   background-image: url(./image\ 39.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 45px 0 0 24px;
+}
+
+.right-wrappercard h2 {
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49.2px;
+    letter-spacing: 0.05em;
+
+}
+.section-loka{
+    font-family: Open Sans;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 78.72px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    padding: 160px 0;
+}
+
+.second-section04 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.box {
+    width: 350px;
+    height: 462px;
+    background-color: #101010;
+    border-radius: 2%;
+    transition: all ease 0.5s;
+}
+
+
+.box:hover{
+    width: 350px;
+    height: 462px;
+    background-color: wheat;
+    border-radius: 2%;
+    transition: all ease 0.5s;
+
+}
+
+.box h3{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 25.6px;
+    text-align: left;
+    color: white;
+    margin-left: 20px;
+}
+
+.box p{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: white;
+    margin-left: 20px;
+    margin-top: 50px;
+    width: 315px;
+}
+
+.third{
+    background-image: url(/image\ 86.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #F57520;
+}
+
+.third-section h2{
+    font-family: Open Sans;
+font-size: 40px;
+font-weight: 800;
+line-height: 49.2px;
+letter-spacing: 0.05em;
+text-align: left;
+width: 620px;
+color: #fff;
+padding: 40px 0 0 0;
+margin-top: 25px;
+
+}
+
+
+form{
+    width: 610px;
+    height: 354px;
+    margin: 40px 0 0 0;
+}
+   
+
+.input-top{
+    width: 302px;
+    height: 46px;
+    border-radius: 10px;   
+    border: none; 
+    margin: 10px 0 0 0;
+    padding-left: 10px;
+}
+
+
+.input-buttom{
+    width: 608px;
+    height: 154px;
+    margin: 10px 0 0 0;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: none;
+
+
+}
+
+.input-btn{
+    width: 608px;
+    height: 52px;
+    border-radius: 10px;
+    color: #F57520;
+    border: none;
+    margin-top: 15px;
+}
+
+.container {
+    max-width: 100%;
+    width: 86%;
+    margin: 0 auto;
+}
+
+
+footer {
+       background-color: black;
+        height: 300px;
+         display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50%;
+}
+.foot ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30%;
+    color: white;
+    
+}
+.foot ul li a{
+    color: white;
+}
+
+
+
+
+
